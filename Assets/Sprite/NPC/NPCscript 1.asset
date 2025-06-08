@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3a374a628ea2e4bacd83e6cea0a9e3, type: 3}
+  m_Name: NPCscript 1
+  m_EditorClassIdentifier: 
+  npcName: Baba
+  dialogueBeforeQuest:
+  - Hello Bumi.....
+  - Bantu Kami selesaikan Masalah Lingkungan Ini...
+  - Dengan Mengumpulkan sampah
+  dialogueAfterQuest:
+  - Hiiii Bumi....
+  - Terimakasih telah Membantu Kami
+  - Semoga Hari mu Menyenangkan:)
+  givesQuest: 0
+  questID: buang_sampah
